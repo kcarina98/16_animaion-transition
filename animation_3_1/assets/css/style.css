@@ -1,0 +1,59 @@
+body {
+  position: relative;
+}
+
+div {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.circle1 {
+  background-color: red;
+  animation: circle 4s infinite;
+}
+
+.circle2 {
+  background-color: red;
+  animation: circle 4s infinite;
+  animation-delay: 1s;
+}
+
+.circle3 {
+  background-color: red;
+  animation: circle 4s infinite;
+  animation-delay: 2s;
+}
+
+.circle4 {
+  background-color: red;
+  animation: circle 4s infinite;
+  animation-delay: 3s;
+}
+
+@keyframes circle {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(500px, 0px);
+    background-color: yellow;
+  }
+
+  50% {
+    transform: translate(500px, 500px);
+    background-color: green;
+  }
+
+  75% {
+    transform: translate(0px, 500px);
+    background-color: blue;
+  }
+
+  0% {
+    transform: translate(0px, 0px);
+    background-color: red;
+  }
+}

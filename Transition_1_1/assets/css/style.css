@@ -1,0 +1,16 @@
+section {
+  height: 30vh;
+  background-color: linen;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition-property: width;
+  transition-duration: 3s;
+}
+
+div:hover {
+  width: 100%;
+}

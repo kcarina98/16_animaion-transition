@@ -1,0 +1,33 @@
+div {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  animation-name: ball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes ball {
+  0%,
+  100% {
+    background-color: aquamarine;
+    transform: translate(0, 0);
+  }
+
+  25% {
+    background-color: salmon;
+    transform: translatex(500px);
+  }
+
+  50% {
+    background-color: lawngreen;
+    transform: translate(500px, 500px);
+  }
+
+  75% {
+    background-color: crimson;
+    transform: translateY(500px);
+  }
+}

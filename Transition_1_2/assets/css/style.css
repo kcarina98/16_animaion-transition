@@ -1,0 +1,33 @@
+section {
+  height: 50vh;
+  background-color: linen;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+  width: 100px;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+.green {
+  background-color: green;
+  margin-top: 200px;
+  width: 100px;
+  transition-property: width;
+  transition-duration: 4s;
+  transition-delay: 1s;
+  /* transition-timing-function: 1s; */
+}
+
+section:hover .red {
+  width: 100%;
+}
+
+section:hover .green {
+  width: 100%;
+}

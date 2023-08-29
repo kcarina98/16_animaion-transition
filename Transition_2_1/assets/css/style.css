@@ -1,0 +1,26 @@
+.pic {
+  position: relative;
+  width: 30vw;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.481);
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.pic:hover .overlay {
+  height: 100%;
+}

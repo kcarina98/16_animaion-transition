@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img:hover {
+  box-shadow: 0 0 40px white;
+  transition-duration: 1s;
+  animation: boxshadow 1s 1s;
+}
+
+@keyframes boxshadow {
+  0% {
+  }
+
+  100% {
+    box-shadow: 10px 10px 40px blue, -10px -10px 30px red;
+  }
+}
